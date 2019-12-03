@@ -8,9 +8,6 @@ function getRandomColor() {
   };
   return `rgb(${color()},${color()},${color()})`;
 }
-const backgroundColor = {
-  backgroundColor: getRandomColor(),
-};
 const Statistics = ({ title, stats }) => (
   <section className={styles.statistics}>
     {title.length > 0 && <h2 className={styles.title}>{title}</h2>}
@@ -19,7 +16,7 @@ const Statistics = ({ title, stats }) => (
         stats.map(item => (
           <li
             className={styles.item}
-            style={{ ...backgroundColor }}
+            style={{ backgroundColor: getRandomColor() }}
             key={item.id}
           >
             <span className={styles.label}>{item.label}</span>

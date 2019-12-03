@@ -3,6 +3,8 @@ import Profile from './components/Profile/Profile';
 import userProfile from './components/Profile/user.json';
 import Statistics from './components/Statistics/Statistics';
 import dataStatistics from './components/Statistics/statistical-data.json';
+import FriendList from './components/FriendList/FriendList';
+import dataFriendList from './components/FriendList/friends.json';
 
 const appStyles = {
   width: '100%',
@@ -21,6 +23,9 @@ const App = () => (
     </div>
     <div style={{ ...appStyles }}>
       <Statistics title="File upload" stats={dataStatistics} />
+    </div>
+    <div style={{ ...appStyles }}>
+      <FriendList friends={dataFriendList} />
     </div>
   </div>
 );
