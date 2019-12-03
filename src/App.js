@@ -1,6 +1,8 @@
 import React from 'react';
 import Profile from './components/Profile/Profile';
 import userProfile from './components/Profile/user.json';
+import Statistics from './components/Statistics/Statistics';
+import dataStatistics from './components/Statistics/statistical-data.json';
 
 const appStyles = {
   width: '100%',
@@ -16,6 +18,9 @@ const App = () => (
   <div>
     <div style={{ ...appStyles }}>
       <Profile user={userProfile} />
+    </div>
+    <div style={{ ...appStyles }}>
+      <Statistics title="File upload" stats={dataStatistics} />
     </div>
   </div>
 );
