@@ -3,12 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-.sectionProfile {
-  width: 100%;
-  height: 100vh;
-  background: rgba(231, 236, 242);
-}
 .profile {
+  width: 250px;
+  height: 330px;
+  font-family: 'Proxima Nova';
+  font-size: 14px;
+  line-height: 32px;
+  color: #768696;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -18,8 +19,6 @@
   border: 2px solid rgba(228, 233, 240);
   box-shadow: 2px 5px 2px #768696;
   border-radius: 6px;
-  width: 250px;
-  height: 330px;
 }
 .description {
   height: 260px;
@@ -37,23 +36,13 @@
 }
 .name {
   font-size: 18px;
-  line-height: 32px;
   color: #122236;
-  font-family: 'Lato';
   font-weight: 700;
 }
 .tag {
-  font-size: 14px;
-  line-height: 32px;
-  color: #768696;
-  font-family: 'Lato';
   font-weight: 400;
 }
 .location {
-  font-size: 14px;
-  line-height: 32px;
-  color: #768696;
-  font-family: 'Lato';
   font-weight: 400;
 }
 .stats {
@@ -82,15 +71,9 @@
 }
 .label {
   font-size: 12px;
-  line-height: 32px;
-  color: #768696;
-  font-family: 'Lato';
   font-weight: 400;
 }
 .quantity {
-  font-size: 14px;
-  line-height: 32px;
   color: #1f3349;
-  font-family: 'Lato';
   font-weight: 900;
 }
