@@ -21,9 +21,6 @@ const appStyles = {
 const App = () => (
   <div>
     <div style={{ ...appStyles }}>
-      <TransactionHistory item={dataTransactionHistory} />
-    </div>
-    <div style={{ ...appStyles }}>
       <Profile user={userProfile} />
     </div>
     <div style={{ ...appStyles }}>
@@ -31,6 +28,9 @@ const App = () => (
     </div>
     <div style={{ ...appStyles }}>
       <FriendList friends={dataFriendList} />
+    </div>
+    <div style={{ ...appStyles }}>
+      <TransactionHistory item={dataTransactionHistory} />
     </div>
   </div>
 );
