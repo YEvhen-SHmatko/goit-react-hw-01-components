@@ -22,14 +22,8 @@ const App = () => (
   <div>
     <div style={{ ...appStyles }}>
       <Profile user={userProfile} />
-    </div>
-    <div style={{ ...appStyles }}>
       <Statistics title="File upload" stats={dataStatistics} />
-    </div>
-    <div style={{ ...appStyles }}>
       <FriendList friends={dataFriendList} />
-    </div>
-    <div style={{ ...appStyles }}>
       <TransactionHistory item={dataTransactionHistory} />
     </div>
   </div>
