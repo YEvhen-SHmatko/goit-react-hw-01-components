@@ -1,6 +1,7 @@
 .statistics {
-  min-height: 130px;
   margin: 10px;
+  max-width: 330px;
+  min-height: 130px;
   box-shadow: 2px 2px 2px #768696;
 }
 .title {

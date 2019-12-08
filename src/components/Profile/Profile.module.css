@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: rgb(243, 246, 249);
+}
+
 .profile {
   width: 250px;
   height: 330px;

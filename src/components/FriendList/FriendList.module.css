@@ -1,6 +1,7 @@
 .friendList {
   font-size: 22px;
   margin: 10px;
+  width: 400px;
 }
 .item {
   background: #fff;
